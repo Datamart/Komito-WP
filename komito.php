@@ -19,7 +19,7 @@
 
 define('KOMITO_PREFIX', 'komito_');
 define('KOMITO_SCRIPT', 'https://komito.net/komito.js');
-define('DEFAULTS_KEYS', 'defaults');
+define('KOMITO_DEFAULT', 'defaults');
 
 /**
  * Gets Komito Analytics options.
@@ -74,7 +74,7 @@ function get_komito_options() {
  * @see https://komito.net/integration/
  */
 function add_komito() {
-  if (!get_option(KOMITO_PREFIX . DEFAULTS_KEYS, 1)) {
+  if (!get_option(KOMITO_PREFIX . KOMITO_DEFAULT, 1)) {
     $options = get_komito_options();
     $output = array();
 
@@ -120,8 +120,8 @@ function komito_settings_page() {
       <?php settings_fields('komito-settings-group'); ?>
       <div>
         <label><input type="checkbox"
-          name="<?= KOMITO_PREFIX . DEFAULTS_KEYS ?>"
-          value="1" <?php checked(get_option(KOMITO_PREFIX . DEFAULTS_KEYS), 1); ?>
+          name="<?= KOMITO_PREFIX . KOMITO_DEFAULT ?>"
+          value="1" <?php checked(get_option(KOMITO_PREFIX . KOMITO_DEFAULT), 1); ?>
           onclick="setDisabled_()">Use default Komito Analytics configuration settings.</label>
         <p>
           For further information and instructions please see the
@@ -147,7 +147,7 @@ function komito_settings_page() {
   function setDisabled_() {
     var form = document.forms['komito-form'];
     var elements = form.elements;
-    var input = elements['<?= KOMITO_PREFIX . DEFAULTS_KEYS ?>'];
+    var input = elements['<?= KOMITO_PREFIX . KOMITO_DEFAULT ?>'];
     var length = elements.length;
     var types = {'checkbox': '', 'text': ''};
     var element;
@@ -171,7 +171,7 @@ function komito_settings() {
   $group = 'komito-settings-group';
   $options = get_komito_options();
 
-  register_setting($group, KOMITO_PREFIX . DEFAULTS_KEYS, array('default' => 1));
+  register_setting($group, KOMITO_PREFIX . KOMITO_DEFAULT, array('default' => 1));
   foreach ($options as $option => $args) {
     register_setting($group, KOMITO_PREFIX . $option, $args);
   }
