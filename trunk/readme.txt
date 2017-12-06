@@ -1,8 +1,9 @@
 === Komito Analytics ===
-Contributors: vpodk
+Contributors: datamart,komito,vpodk
 Tags: analytics, google-analytics, adobe-analytics, clicktale, event-tracking
 License: Apache License 2.0
 License URI: https://www.apache.org/licenses/LICENSE-2.0
+Requires at least: 4.6
 
 Komito Analytics is an enhancement for the most popular web analytics software.
 
@@ -25,8 +26,8 @@ For further information and instructions please see the [Komito Analytics integr
 
 If you would prefer to do things manually then follow these instructions:
 
-1. Upload the `komito.php` file to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
+1. Upload the `komito.php` file to the `/wp-content/plugins/` directory.
+1. Activate the plugin through the 'Plugins' menu in WordPress.
 
 == Changelog ==
 
