@@ -15,6 +15,9 @@ For further information and instructions please see the [Komito Analytics websit
 
 ## Komito Analytics for WordPress
 
+![Screenshot](https://github.com/Datamart/Komito-WP/blob/master/assets/screenshot-1.png)
+
+**Links**
 * https://wordpress.org/plugins/komito-analytics
 * https://plugins.svn.wordpress.org/komito-analytics/
 
