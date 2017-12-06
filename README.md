@@ -1,4 +1,4 @@
-# Komito Analytics (http://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
+# Komito Analytics [![License](http://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 Komito Analytics is an enhancement for the most popular analytics software.<br>
 It unlocks the power of digital analytics with additional insights about visitor's behavior such as:
