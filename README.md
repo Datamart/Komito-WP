@@ -26,10 +26,11 @@ For further information and instructions please see the [Komito Analytics websit
 
 If you would prefer to do things manually then follow these instructions:
 
-1. Upload the `komito.php` file to the `/wp-content/plugins/` directory.
+1. Upload the `komito-analytics.php` file to the `/wp-content/plugins/` directory.
 1. Activate the plugin through the 'Plugins' menu in WordPress.
 
 ## Changelog
 
 **0.0.1**
 * Initial release
+* Initial translations

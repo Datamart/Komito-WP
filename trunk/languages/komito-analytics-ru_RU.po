@@ -17,90 +17,90 @@ msgstr "Следить за ссылками на скачивание файл�
 
 #. Tags of the plugin/theme
 msgid "analytics, google-analytics, adobe-analytics, clicktale, event-tracking"
-msgstr ""
+msgstr "analytics, google-analytics, adobe-analytics, clicktale, event-tracking"
 
 #. Author URI of the plugin/theme
 msgid "https://profiles.wordpress.org/datamart"
-msgstr ""
+msgstr "https://profiles.wordpress.org/datamart"
 
 #. Author of the plugin/theme
 msgid "Datamart"
-msgstr ""
+msgstr "Datamart"
 
 #. Description of the plugin/theme
 msgid "Komito Analytics is an enhancement for the most popular web analytics software."
-msgstr ""
+msgstr "Komito Analytics - это усовершенствование для популярных сервисов для веб-аналитики."
 
 #. Plugin URI of the plugin/theme
 msgid "https://komito.net"
-msgstr ""
+msgstr "https://komito.net"
 
 #: komito-analytics.php:154
 msgid "Komito Analytics integration page"
-msgstr ""
+msgstr "страницу по интеграции Komito Analytics"
 
 #: komito-analytics.php:152
 msgid "For further information and instructions please see the"
-msgstr ""
+msgstr "Для получения дополнительной информации и инструкций см."
 
 #: komito-analytics.php:150
 msgid "Use default Komito Analytics configuration settings."
-msgstr ""
+msgstr "Использовать настройки конфигурации по умолчанию."
 
 #. #-#-#-#-#  komito-analytics-code.pot (Komito Analytics 0.0.1)  #-#-#-#-#
 #. Plugin Name of the plugin/theme
 #: komito-analytics.php:124
 msgid "Komito Analytics"
-msgstr ""
+msgstr "Komito Analytics"
 
 #: komito-analytics.php:123 komito-analytics.php:142
 msgid "Komito Analytics Settings"
-msgstr ""
+msgstr "Настройки Komito Analytics"
 
 #: komito-analytics.php:91
 msgid "Print all requests to console."
-msgstr ""
+msgstr "Печатать все запросы в консоль."
 
 #: komito-analytics.php:87
 msgid "Track orientation change on mobile devices."
-msgstr ""
+msgstr "Следить за изменением ориентации экрана на мобильных устройствах."
 
 #: komito-analytics.php:83
 msgid "Track scroll depth."
-msgstr ""
+msgstr "Следить за глубиной прокрутки."
 
 #: komito-analytics.php:79
 msgid "Track HTML5 video, audio, Vimeo and YouTube players events."
-msgstr ""
+msgstr "Следить за видео и аудио событиями HTML5, Vimeo и YouTube плееров."
 
 #: komito-analytics.php:75
 msgid "Track page print actions."
-msgstr ""
+msgstr "Cледить за печатью страницы."
 
 #: komito-analytics.php:71
 msgid "Track \"mailto\", \"tel\", \"sms\" and \"skype\" actions."
-msgstr ""
+msgstr "Следить за ссылками \"mailto\", \"tel\", \"sms\" и \"skype\"."
 
 #: komito-analytics.php:67
 msgid "Track pageviews by users logged in to social networks."
-msgstr ""
+msgstr "Следить за просмотрами пользователей, вошедших в социальные сети."
 
 #: komito-analytics.php:63
 msgid "Track forms submissions."
-msgstr ""
+msgstr "Следить за отсылкой форм."
 
 #: komito-analytics.php:59
 msgid "Track outbound links."
-msgstr ""
+msgstr "Следить за исходящими ссылками."
 
 #: komito-analytics.php:51
 msgid "Track LinkedIn events if plugin is presented on page."
-msgstr ""
+msgstr "Следить за событиями плагина LinkedIn, если он установлен на странице."
 
 #: komito-analytics.php:47
 msgid "Track Facebook events if widget is presented on page."
-msgstr ""
+msgstr "Следить за событиями виджета Facebook, если он установлен на странице."
 
 #: komito-analytics.php:43
 msgid "Track Twitter events if widget is presented on page."
-msgstr ""
+msgstr "Следить за событиями виджета Twitter, если он установлен на странице."
