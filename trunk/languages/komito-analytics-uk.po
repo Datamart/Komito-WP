@@ -8,12 +8,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
-"Language: ru\n"
+"Language: uk_UA\n"
 "Project-Id-Version: Plugins - Komito Analytics - Development (trunk)\n"
 
 #: komito-analytics.php:55
 msgid "Track files download links."
-msgstr "Следить за ссылками на скачивание файлов."
+msgstr "Стежити за посиланнями на скачування файлів."
 
 #. Tags of the plugin/theme
 msgid "analytics, google-analytics, adobe-analytics, clicktale, event-tracking"
@@ -29,7 +29,7 @@ msgstr "Datamart"
 
 #. Description of the plugin/theme
 msgid "Komito Analytics is an enhancement for the most popular web analytics software."
-msgstr "Komito Analytics - это усовершенствование для популярных сервисов для веб-аналитики."
+msgstr "Komito Analytics - це удосконалення для популярних сервісів для веб-аналітики."
 
 #. Plugin URI of the plugin/theme
 msgid "https://komito.net"
@@ -37,15 +37,15 @@ msgstr "https://komito.net"
 
 #: komito-analytics.php:154
 msgid "Komito Analytics integration page"
-msgstr "страницу по интеграции Komito Analytics"
+msgstr "сторінку по інтеграції Komito Analytics"
 
 #: komito-analytics.php:152
 msgid "For further information and instructions please see the"
-msgstr "Для получения дополнительной информации и инструкций см."
+msgstr "Для отримання додаткової інформації та інструкцій див."
 
 #: komito-analytics.php:150
 msgid "Use default Komito Analytics configuration settings."
-msgstr "Использовать настройки конфигурации по умолчанию."
+msgstr "Використовувати налаштування конфігурації за замовчуванням."
 
 #. #-#-#-#-#  komito-analytics-code.pot (Komito Analytics 0.0.1)  #-#-#-#-#
 #. Plugin Name of the plugin/theme
@@ -55,52 +55,52 @@ msgstr "Komito Analytics"
 
 #: komito-analytics.php:123 komito-analytics.php:142
 msgid "Komito Analytics Settings"
-msgstr "Настройки Komito Analytics"
+msgstr "Налаштування Komito Analytics"
 
 #: komito-analytics.php:91
 msgid "Print all requests to console."
-msgstr "Печатать все запросы в консоль."
+msgstr "Друкувати всі запити в консоль."
 
 #: komito-analytics.php:87
 msgid "Track orientation change on mobile devices."
-msgstr "Следить за изменением ориентации экрана на мобильных устройствах."
+msgstr "Стежити за зміною орієнтації екрану на мобільних пристроях."
 
 #: komito-analytics.php:83
 msgid "Track scroll depth."
-msgstr "Следить за глубиной прокрутки."
+msgstr "Стежити за глибиною прокрутки."
 
 #: komito-analytics.php:79
 msgid "Track HTML5 video, audio, Vimeo and YouTube players events."
-msgstr "Следить за видео и аудио событиями HTML5, Vimeo и YouTube плееров."
+msgstr "Стежити за відео й аудіо подіями HTML5, Vimeo та YouTube плеєрів."
 
 #: komito-analytics.php:75
 msgid "Track page print actions."
-msgstr "Cледить за печатью страницы."
+msgstr "Стежити за друком сторінки."
 
 #: komito-analytics.php:71
 msgid "Track \"mailto\", \"tel\", \"sms\" and \"skype\" actions."
-msgstr "Следить за ссылками \"mailto\", \"tel\", \"sms\" и \"skype\"."
+msgstr "Стежити за посиланнями “mailto”, “tel”, “sms” і “skype”."
 
 #: komito-analytics.php:67
 msgid "Track pageviews by users logged in to social networks."
-msgstr "Следить за просмотрами пользователей, вошедших в социальные сети."
+msgstr "Стежити за переглядами користувачів, які увійшли в соціальні мережі."
 
 #: komito-analytics.php:63
 msgid "Track forms submissions."
-msgstr "Следить за отсылкой форм."
+msgstr "Стежити за відсиланням форм."
 
 #: komito-analytics.php:59
 msgid "Track outbound links."
-msgstr "Следить за исходящими ссылками."
+msgstr "Стежити за вихідними посиланнями."
 
 #: komito-analytics.php:51
 msgid "Track LinkedIn events if plugin is presented on page."
-msgstr "Следить за событиями плагина LinkedIn, если он установлен на странице."
+msgstr "Стежити за подіями плагіна LinkedIn, якщо він встановлений на сторінці."
 
 #: komito-analytics.php:47
 msgid "Track Facebook events if widget is presented on page."
-msgstr "Следить за событиями виджета Facebook, если он установлен на странице."
+msgstr "Стежити за подіями віджета Facebook, якщо він встановлений на сторінці."
 
 #: komito-analytics.php:43
 msgid "Track Twitter events if widget is presented on page."
-msgstr "Следить за событиями виджета Twitter, если он установлен на странице."
+msgstr "Стежити за подіями віджета Twitter, якщо він встановлений на сторінці."
