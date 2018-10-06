@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @package KomitoAnalytics
- * @version 0.0.1
+ * @version 1.0.0
  * @license http://www.apache.org/licenses/LICENSE-2.0  Apache License 2.0
  * @author Valentin Podkamenyi <valentin@dtm.io>
  * @author Komito Analytics <support@komito.net>
@@ -85,6 +85,10 @@ function get_komito_options() {
         'trackOrientation' => array(
             'default' => 1, 'type' => 'integer',
             'description' => __('Track orientation change on mobile devices.', KOMITO_TEXT_DOMAIN)),
+
+        'trackAdblock' => array(
+            'default' => 0, 'type' => 'integer',
+            'description' => __('Track page views with blocked ads. (e.g. AdBlock tracker)', KOMITO_TEXT_DOMAIN)),
 
         'debugMode' => array(
             'default' => 0, 'type' => 'integer',

@@ -38,6 +38,10 @@ If you would prefer to do things manually then follow these instructions:
 
 == Changelog ==
 
+= 1.0.0 =
+* First release
+* Added ad blockers tracking
+
 = 0.0.1 =
 * Initial release
 * Initial translations
