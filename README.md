@@ -10,6 +10,7 @@ It unlocks the power of digital analytics with additional insights about visitor
 * Downloads and outbound links
 * Video and audio events
 * Scroll and print events
+* Tracking pageviews with blocked ads
 
 For further information and instructions please see the [Komito Analytics website](https://komito.net).
 
