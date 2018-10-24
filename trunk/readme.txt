@@ -5,7 +5,7 @@ Stable tag: trunk
 License: Apache License 2.0
 License URI: https://www.apache.org/licenses/LICENSE-2.0
 Requires at least: 4.6
-Tested up to: 4.9
+Tested up to: 5
 Requires PHP: 5
 
 Komito Analytics is an enhancement for the most popular web analytics software.
