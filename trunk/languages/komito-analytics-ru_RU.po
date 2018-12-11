@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Komito Analytics - Development (trunk) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-12-08 00:00+0000\n"
+"PO-Revision-Date: 2018-12-11 14:19:04+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,10 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: ru\n"
 "Project-Id-Version: Plugins - Komito Analytics - Development (trunk)\n"
+
+#: komito-analytics.php:91
+msgid "Track page views with blocked ads. (e.g. AdBlock tracker)"
+msgstr "Отслеживать просмотры страниц с заблокированными объявлениями. (например, трекер AdBlock)"
 
 #: komito-analytics.php:55
 msgid "Track files download links."
@@ -29,35 +33,35 @@ msgstr "Datamart"
 
 #. Description of the plugin/theme
 msgid "Komito Analytics is an enhancement for the most popular web analytics software."
-msgstr "Komito Analytics - это усовершенствование для популярных сервисов для веб-аналитики."
+msgstr "Komito Analytics - это усовершенствование для самых популярных сервисов для веб-аналитики."
 
 #. Plugin URI of the plugin/theme
 msgid "https://komito.net"
 msgstr "https://komito.net"
 
-#: komito-analytics.php:154
+#: komito-analytics.php:158
 msgid "Komito Analytics integration page"
-msgstr "страницу по интеграции Komito Analytics"
+msgstr "Страница по интеграции Komito Analytics"
 
-#: komito-analytics.php:152
+#: komito-analytics.php:156
 msgid "For further information and instructions please see the"
 msgstr "Для получения дополнительной информации и инструкций см."
 
-#: komito-analytics.php:150
+#: komito-analytics.php:154
 msgid "Use default Komito Analytics configuration settings."
 msgstr "Использовать настройки конфигурации по умолчанию."
 
-#. #-#-#-#-#  komito-analytics-code.pot (Komito Analytics 0.0.1)  #-#-#-#-#
+#. #-#-#-#-#  komito-analytics-code.pot (Komito Analytics 1.0.0)  #-#-#-#-#
 #. Plugin Name of the plugin/theme
-#: komito-analytics.php:124
+#: komito-analytics.php:128
 msgid "Komito Analytics"
 msgstr "Komito Analytics"
 
-#: komito-analytics.php:123 komito-analytics.php:142
+#: komito-analytics.php:127 komito-analytics.php:146
 msgid "Komito Analytics Settings"
 msgstr "Настройки Komito Analytics"
 
-#: komito-analytics.php:91
+#: komito-analytics.php:95
 msgid "Print all requests to console."
 msgstr "Печатать все запросы в консоль."
 
@@ -95,12 +99,12 @@ msgstr "Следить за исходящими ссылками."
 
 #: komito-analytics.php:51
 msgid "Track LinkedIn events if plugin is presented on page."
-msgstr "Следить за событиями плагина LinkedIn, если он установлен на странице."
+msgstr "Следить за событиями в LinkedIn, если плагин установлен на странице."
 
 #: komito-analytics.php:47
 msgid "Track Facebook events if widget is presented on page."
-msgstr "Следить за событиями виджета Facebook, если он установлен на странице."
+msgstr "Следить за событиями в Facebook, если виджет установлен на странице."
 
 #: komito-analytics.php:43
 msgid "Track Twitter events if widget is presented on page."
-msgstr "Следить за событиями виджета Twitter, если он установлен на странице."
+msgstr "Следить за событиями в Twitter, если виджет установлен на странице."
