@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @package KomitoAnalytics
- * @version 1.0.0
+ * @version 1.0.1
  * @license http://www.apache.org/licenses/LICENSE-2.0  Apache License 2.0
  * @author Valentin Podkamenyi <valentin@dtm.io>
  * @author Komito Analytics <support@komito.net>
@@ -17,7 +17,7 @@
  * Plugin Name: Komito Analytics
  * Plugin URI: https://komito.net
  * Description: Komito Analytics is an enhancement for the most popular web analytics software.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Datamart
  * Author URI: https://profiles.wordpress.org/datamart
  * License: Apache License 2.0
@@ -40,59 +40,59 @@ function get_komito_options() {
     return array(
         'trackTwitter' => array(
             'default' => 1, 'type' => 'integer',
-            'description' => __('Track Twitter events if widget is presented on page.', KOMITO_TEXT_DOMAIN)),
+            'description' => __('Track Twitter events if widget is presented on page.', 'komito-analytics')),
 
         'trackFacebook' => array(
             'default' => 1, 'type' => 'integer',
-            'description' => __('Track Facebook events if widget is presented on page.', KOMITO_TEXT_DOMAIN)),
+            'description' => __('Track Facebook events if widget is presented on page.', 'komito-analytics')),
 
         'trackLinkedIn' => array(
             'default' => 1, 'type' => 'integer',
-            'description' => __('Track LinkedIn events if plugin is presented on page.', KOMITO_TEXT_DOMAIN)),
+            'description' => __('Track LinkedIn events if plugin is presented on page.', 'komito-analytics')),
 
         'trackDownloads' => array(
             'default' => 1, 'type' => 'integer',
-            'description' => __('Track files download links.', KOMITO_TEXT_DOMAIN)),
+            'description' => __('Track files download links.', 'komito-analytics')),
 
         'trackOutbound' => array(
             'default' => 1, 'type' => 'integer',
-            'description' => __('Track outbound links.', KOMITO_TEXT_DOMAIN)),
+            'description' => __('Track outbound links.', 'komito-analytics')),
 
         'trackForms' => array(
             'default' => 1, 'type' => 'integer',
-            'description' => __('Track forms submissions.', KOMITO_TEXT_DOMAIN)),
+            'description' => __('Track forms submissions.', 'komito-analytics')),
 
         'trackUsers' => array(
             'default' => 1, 'type' => 'integer',
-            'description' => __('Track pageviews by users logged in to social networks.', KOMITO_TEXT_DOMAIN)),
+            'description' => __('Track pageviews by users logged in to social networks.', 'komito-analytics')),
 
         'trackActions' => array(
             'default' => 1, 'type' => 'integer',
-            'description' => __('Track "mailto", "tel", "sms" and "skype" actions.', KOMITO_TEXT_DOMAIN)),
+            'description' => __('Track "mailto", "tel", "sms" and "skype" actions.', 'komito-analytics')),
 
         'trackPrint' => array(
             'default' => 1, 'type' => 'integer',
-            'description' => __('Track page print actions.', KOMITO_TEXT_DOMAIN)),
+            'description' => __('Track page print actions.', 'komito-analytics')),
 
         'trackMedia' => array(
             'default' => 1, 'type' => 'integer',
-            'description' => __('Track HTML5 video, audio, Vimeo and YouTube players events.', KOMITO_TEXT_DOMAIN)),
+            'description' => __('Track HTML5 video, audio, Vimeo and YouTube players events.', 'komito-analytics')),
 
         'trackScroll' => array(
             'default' => 1, 'type' => 'integer',
-            'description' => __('Track scroll depth.', KOMITO_TEXT_DOMAIN)),
+            'description' => __('Track scroll depth.', 'komito-analytics')),
 
         'trackOrientation' => array(
             'default' => 1, 'type' => 'integer',
-            'description' => __('Track orientation change on mobile devices.', KOMITO_TEXT_DOMAIN)),
+            'description' => __('Track orientation change on mobile devices.', 'komito-analytics')),
 
         'trackAdblock' => array(
             'default' => 0, 'type' => 'integer',
-            'description' => __('Track page views with blocked ads. (e.g. AdBlock tracker)', KOMITO_TEXT_DOMAIN)),
+            'description' => __('Track pageviews with blocked ads. (e.g. AdBlock tracker)', 'komito-analytics')),
 
         'debugMode' => array(
             'default' => 0, 'type' => 'integer',
-            'description' => __('Print all requests to console.', KOMITO_TEXT_DOMAIN))
+            'description' => __('Print all requests to console.', 'komito-analytics'))
     );
 }
 
@@ -124,8 +124,8 @@ function add_komito() {
  */
 function komito_menu() {
     add_menu_page(
-        __('Komito Analytics Settings', KOMITO_TEXT_DOMAIN), // Page title
-        __('Komito Analytics', KOMITO_TEXT_DOMAIN), // Menu title
+        __('Komito Analytics Settings', 'komito-analytics'), // Page title
+        __('Komito Analytics', 'komito-analytics'), // Menu title
         'administrator', // Capability
         'komito-settings', // Menu slug, URL
         'komito_settings_page', // Function name
@@ -143,7 +143,7 @@ function komito_settings_page() {
     $options = get_komito_options();
     ?>
     <div class="wrap">
-      <h2><?php _e('Komito Analytics Settings', KOMITO_TEXT_DOMAIN) ?></h2>
+      <h2><?php _e('Komito Analytics Settings', 'komito-analytics') ?></h2>
       <form method="post" action="options.php" name="komito-form">
         <?php settings_fields('komito-settings-group'); ?>
         <div>
@@ -151,11 +151,9 @@ function komito_settings_page() {
             name="<?= KOMITO_PREFIX . KOMITO_DEFAULT ?>"
             value="1" <?php checked(get_option(KOMITO_PREFIX . KOMITO_DEFAULT), 1); ?>
             onclick="setDisabled_()">
-            <?php _e('Use default Komito Analytics configuration settings.', KOMITO_TEXT_DOMAIN) ?></label>
+            <?php _e('Use default Komito Analytics configuration settings.', 'komito-analytics') ?></label>
           <p>
-            <?php _e('For further information and instructions please see the', KOMITO_TEXT_DOMAIN) ?>
-            <a href="https://komito.net/integration/"
-               target="_blank"><?php _e('Komito Analytics integration page', KOMITO_TEXT_DOMAIN) ?></a>.
+            <?php printf(__('For further information and instructions please see the <a href="%s" target="_blank">Komito Analytics integration page</a>.', 'komito-analytics'), 'https://komito.net/integration/') ?>
           </p>
         </div>
         <hr/>
