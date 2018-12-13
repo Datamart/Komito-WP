@@ -5,6 +5,7 @@ Stable tag: trunk
 License: Apache License 2.0
 License URI: https://www.apache.org/licenses/LICENSE-2.0
 Requires at least: 4.6
+Stable Tag: 1.0.1
 Tested up to: 5.0
 Requires PHP: 5
 
