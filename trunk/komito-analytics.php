@@ -153,7 +153,10 @@ function komito_settings_page() {
             onclick="setDisabled_()">
             <?php _e('Use default Komito Analytics configuration settings.', 'komito-analytics') ?></label>
           <p>
-            <?php printf(__('For further information and instructions please see the <a href="%s" target="_blank">Komito Analytics integration page</a>.', 'komito-analytics'), 'https://komito.net/integration/') ?>
+            <?php
+            /* translators: Variables contain start and end tags for the relevant link. */
+            printf(__('For further information and instructions please see the <a href="%s" target="_blank">Komito Analytics integration page</a>.', 'komito-analytics'), 'https://komito.net/integration/');
+            ?>
           </p>
         </div>
         <hr/>
