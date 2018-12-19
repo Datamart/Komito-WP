@@ -1,0 +1,102 @@
+# Translation of Plugins - Komito Analytics - Development (trunk) in Tagalog
+# This file is distributed under the same license as the Plugins - Komito Analytics - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: tl_PH\n"
+"Project-Id-Version: Plugins - Komito Analytics - Development (trunk)\n"
+
+#. translators: Variables contain start and end tags for the relevant link.
+#: komito-analytics.php:158
+msgid "For further information and instructions please see the <a href=\"%s\" target=\"_blank\">Komito Analytics integration page</a>."
+msgstr "Para sa karagdagang impormasyon at mga tagubilin mangyaring tingnan ang <a href=\"%s\" target=\"_blank\">Komito Analytics integration page</a>."
+
+#: komito-analytics.php:91
+msgid "Track pageviews with blocked ads. (e.g. AdBlock tracker)"
+msgstr "Subaybayan ang mga pageview sa mga naka-block na ad. (hal. AdBlock tracker)"
+
+#: komito-analytics.php:55
+msgid "Track files download links."
+msgstr "Subaybayan ang mga files ng mga download links."
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/datamart"
+msgstr "https://profiles.wordpress.org/datamart"
+
+#. Author of the plugin
+msgid "Datamart"
+msgstr "Datamart"
+
+#. Description of the plugin
+msgid "Komito Analytics is an enhancement for the most popular web analytics software."
+msgstr "Ang Komito Analytics ay isang enhancement para sa mga pinaka-popular na software ng web analytics."
+
+#. Plugin URI of the plugin
+msgid "https://komito.net"
+msgstr "https://komito.net"
+
+#: komito-analytics.php:154
+msgid "Use default Komito Analytics configuration settings."
+msgstr "Gamitin ang default na configuration settings ng Komito Analytics"
+
+#. Plugin Name of the plugin
+#: komito-analytics.php:128
+msgid "Komito Analytics"
+msgstr "Komito Analytics"
+
+#: komito-analytics.php:127 komito-analytics.php:146
+msgid "Komito Analytics Settings"
+msgstr "Komito Analytics Settings"
+
+#: komito-analytics.php:95
+msgid "Print all requests to console."
+msgstr "I-print ang lahat ng mga requests sa console."
+
+#: komito-analytics.php:87
+msgid "Track orientation change on mobile devices."
+msgstr "Subaybayan and pagbabago ng oryentasyon sa mga mobile devices."
+
+#: komito-analytics.php:83
+msgid "Track scroll depth."
+msgstr "Subaybayan ang lalim ng pag-scroll."
+
+#: komito-analytics.php:79
+msgid "Track HTML5 video, audio, Vimeo and YouTube players events."
+msgstr "Subaybayan ang mga video ng HTML5 na video, audio, Vimeo at YouTube player."
+
+#: komito-analytics.php:75
+msgid "Track page print actions."
+msgstr "Subaybayan ang mga aksyon sa pag-print ng mga pahina"
+
+#: komito-analytics.php:71
+msgid "Track \"mailto\", \"tel\", \"sms\" and \"skype\" actions."
+msgstr "Subaybayan ang mga akyon ng \"mailto\", \"tel\", \"sms\" at \"skype\"."
+
+#: komito-analytics.php:67
+msgid "Track pageviews by users logged in to social networks."
+msgstr "Subaybayan ang mga pageview ng mga user na naka-log in sa mga social network."
+
+#: komito-analytics.php:63
+msgid "Track forms submissions."
+msgstr "Subaybayan ang mga pagsusumite ng mga form."
+
+#: komito-analytics.php:59
+msgid "Track outbound links."
+msgstr "Subaybayan ang mga outbound links."
+
+#: komito-analytics.php:51
+msgid "Track LinkedIn events if plugin is presented on page."
+msgstr "Subaybayan ang mga kaganapan ng LinkedIn kung ang plugin ay ginamit sa page."
+
+#: komito-analytics.php:47
+msgid "Track Facebook events if widget is presented on page."
+msgstr "Subaybayan ang mga kaganapan sa Facebook kung ang widget ay ginamit sa page."
+
+#: komito-analytics.php:43
+msgid "Track Twitter events if widget is presented on page."
+msgstr "Subaybayan ang mga kaganapan ng Twitter kung ginamit ang widget sa page."
