@@ -33,6 +33,9 @@ If you would prefer to do things manually then follow these instructions:
 ## Changelog
 
 
+** 1.0.2 **
+* Updated menu icon
+
 ** 1.0.1 **
 * Small improvements for translators
 

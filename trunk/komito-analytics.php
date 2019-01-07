@@ -17,7 +17,7 @@
  * Plugin Name: Komito Analytics
  * Plugin URI: https://komito.net
  * Description: Komito Analytics is an enhancement for the most popular web analytics software.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: Datamart
  * Author URI: https://profiles.wordpress.org/datamart
  * License: Apache License 2.0
@@ -129,7 +129,8 @@ function komito_menu() {
         'administrator', // Capability
         'komito-settings', // Menu slug, URL
         'komito_settings_page', // Function name
-        'dashicons-chart-area'); // Icon URL or a Dashicons string
+        //'dashicons-chart-area'); // Icon URL or a Dashicons string
+        'data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIxMDI0cHgiIGhlaWdodD0iMTAyNHB4IiB2aWV3Qm94PSIwIDAgNDAgNDAiPjxwb2x5Z29uIGZpbGw9IiNkMjAiIHBvaW50cz0iMCwwIDAsMjAuMSAxOS44LDAiLz48cG9seWdvbiBmaWxsPSIjZjgwIiBwb2ludHM9IjAsMzIgMCw0NSAyMC45LDQ1IDguMywyNC42Ii8+PHBvbHlnb24gZmlsbD0iIzA3ZCIgcG9pbnRzPSIzMy42LDQ1IDQ1LDQ1IDQ1LDAgMzIuMywwIDE0LjYsMTgiLz48L3N2Zz4=');
 }
 
 /**
