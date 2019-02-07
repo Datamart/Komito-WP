@@ -6,7 +6,7 @@ License: Apache License 2.0
 License URI: https://www.apache.org/licenses/LICENSE-2.0
 Donate link: https://amzn.to/2SJZoi4
 Requires at least: 4.6
-Stable Tag: 1.0.2
+Stable Tag: 1.1.2
 Tested up to: 5.0
 Requires PHP: 5
 
@@ -40,6 +40,11 @@ If you would prefer to do things manually then follow these instructions:
 1. The main screen of installed plugin.
 
 == Changelog ==
+
+= 1.1.2 =
+* Added tracking error pages
+* Added sending heartbeat event
+* Changed defaults to '0' for Facebook events.
 
 = 1.0.2 =
 * Updated menu icon

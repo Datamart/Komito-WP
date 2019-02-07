@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @package KomitoAnalytics
- * @version 1.0.2
+ * @version 1.1.2
  * @license http://www.apache.org/licenses/LICENSE-2.0  Apache License 2.0
  * @author Valentin Podkamenyi <valentin@dtm.io>
  * @author Komito Analytics <support@komito.net>
@@ -17,7 +17,7 @@
  * Plugin Name: Komito Analytics
  * Plugin URI: https://komito.net
  * Description: Komito Analytics is an enhancement for the most popular web analytics software.
- * Version: 1.0.2
+ * Version: 1.1.2
  * Author: Datamart
  * Author URI: https://profiles.wordpress.org/datamart
  * License: Apache License 2.0
@@ -43,7 +43,7 @@ function get_komito_options() {
             'description' => __('Track Twitter events if widget is presented on page.', 'komito-analytics')),
 
         'trackFacebook' => array(
-            'default' => 1, 'type' => 'integer',
+            'default' => 0, 'type' => 'integer',
             'description' => __('Track Facebook events if widget is presented on page.', 'komito-analytics')),
 
         'trackLinkedIn' => array(
@@ -89,6 +89,14 @@ function get_komito_options() {
         'trackAdblock' => array(
             'default' => 0, 'type' => 'integer',
             'description' => __('Track pageviews with blocked ads. (e.g. AdBlock tracker)', 'komito-analytics')),
+
+        'trackErrorPages' => array(
+            'default' => 0, 'type' => 'integer',
+            'description' => __('Track error pages using HTTP status code. (404, 500, etc.)', 'komito-analytics')),
+
+        'sendHeartbeat' => array(
+            'default' => 0, 'type' => 'integer',
+            'description' => __('Send heartbeat event. The default heartbeat interval is 30 seconds.', 'komito-analytics')),
 
         'debugMode' => array(
             'default' => 0, 'type' => 'integer',

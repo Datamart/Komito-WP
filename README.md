@@ -33,6 +33,11 @@ If you would prefer to do things manually then follow these instructions:
 ## Changelog
 
 
+** 1.1.2 **
+* Added tracking error pages
+* Added sending heartbeat event
+* Changed defaults to '0' for Facebook events.
+
 ** 1.0.2 **
 * Updated menu icon
 
