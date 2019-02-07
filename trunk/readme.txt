@@ -1,6 +1,6 @@
 === Komito Analytics ===
 Contributors: datamart,komito,vpodk
-Tags: analytics, google-analytics, adobe-analytics, clicktale, event-tracking
+Tags: analytics, google-analytics, adobe-analytics, clicktale, event-tracking, yandex-metrica
 Stable tag: trunk
 License: Apache License 2.0
 License URI: https://www.apache.org/licenses/LICENSE-2.0
