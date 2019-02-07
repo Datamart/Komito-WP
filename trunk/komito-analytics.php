@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @package KomitoAnalytics
- * @version 1.1.2
+ * @version 1.1.3
  * @license http://www.apache.org/licenses/LICENSE-2.0  Apache License 2.0
  * @author Valentin Podkamenyi <valentin@dtm.io>
  * @author Komito Analytics <support@komito.net>
@@ -17,12 +17,12 @@
  * Plugin Name: Komito Analytics
  * Plugin URI: https://komito.net
  * Description: Komito Analytics is an enhancement for the most popular web analytics software.
- * Version: 1.1.2
+ * Version: 1.1.3
  * Author: Datamart
  * Author URI: https://profiles.wordpress.org/datamart
  * License: Apache License 2.0
  * License URI: https://www.apache.org/licenses/LICENSE-2.0
- * Tags: analytics, google-analytics, adobe-analytics, clicktale, event-tracking
+ * Tags: analytics, google-analytics, adobe-analytics, clicktale, event-tracking, yandex-metrica
  * Text Domain: komito-analytics
  * Domain Path: /languages
  */

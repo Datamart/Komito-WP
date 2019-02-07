@@ -34,6 +34,9 @@ If you would prefer to do things manually then follow these instructions:
 ## Changelog
 
 
+** 1.1.3 **
+* Added support for Yandex Metrica.
+
 ** 1.1.2 **
 * Added tracking error pages
 * Added sending heartbeat event
