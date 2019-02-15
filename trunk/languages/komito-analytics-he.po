@@ -1,0 +1,110 @@
+# Translation of Plugins - Komito Analytics - Development (trunk) in Hebrew
+# This file is distributed under the same license as the Plugins - Komito Analytics - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: he_IL\n"
+"Project-Id-Version: Plugins - Komito Analytics - Development (trunk)\n"
+
+#: komito-analytics.php:99
+msgid "Send heartbeat event. The default heartbeat interval is 30 seconds."
+msgstr ""
+
+#: komito-analytics.php:95
+msgid "Track error pages using HTTP status code. (404, 500, etc.)"
+msgstr ""
+
+#. translators: Variables contain start and end tags for the relevant link.
+#: komito-analytics.php:167
+msgid "For further information and instructions please see the <a href=\"%s\" target=\"_blank\">Komito Analytics integration page</a>."
+msgstr "לקבלת מידע נוסף והוראות יש לעבור ל <a href=\"%s\" target=\"_blank\">Komito Analytics דף אינטגרציה</a>"
+
+#: komito-analytics.php:91
+msgid "Track pageviews with blocked ads. (e.g. AdBlock tracker)"
+msgstr "לעקוב אחר צפיות בדף עם מודעות חסומות.(לדוגמה AdBlock tracker)"
+
+#: komito-analytics.php:55
+msgid "Track files download links."
+msgstr "לעקוב אחר קישורים להורדת קבצים."
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/datamart"
+msgstr "https://profiles.wordpress.org/datamart"
+
+#. Author of the plugin
+msgid "Datamart"
+msgstr "Datamart"
+
+#. Description of the plugin
+msgid "Komito Analytics is an enhancement for the most popular web analytics software."
+msgstr "Komito Analytics הוא שיפור עבור תוכנת ניתוח נתונים האינטרנט הפופולרי ביותר."
+
+#. Plugin URI of the plugin
+msgid "https://komito.net"
+msgstr "https://komito.net"
+
+#: komito-analytics.php:163
+msgid "Use default Komito Analytics configuration settings."
+msgstr "השתמש בהגדרות ברירת המחדל של התצורה של Komito Analytics"
+
+#. Plugin Name of the plugin
+#: komito-analytics.php:136
+msgid "Komito Analytics"
+msgstr "Komito Analytics"
+
+#: komito-analytics.php:135 komito-analytics.php:155
+msgid "Komito Analytics Settings"
+msgstr "הגדרות  Analytics Settings"
+
+#: komito-analytics.php:103
+msgid "Print all requests to console."
+msgstr "הדפס את כל הבקשות לקונסולות."
+
+#: komito-analytics.php:87
+msgid "Track orientation change on mobile devices."
+msgstr "לעקוב לאחר שינוי אוריינטציות בהתקנים ניידים."
+
+#: komito-analytics.php:83
+msgid "Track scroll depth."
+msgstr "לעקוב אחר עומק הגלילה."
+
+#: komito-analytics.php:79
+msgid "Track HTML5 video, audio, Vimeo and YouTube players events."
+msgstr "לעקוב אחר HTML5 וידאו, אודיו, Vimeo ואירועים נגנים של YouTube."
+
+#: komito-analytics.php:75
+msgid "Track page print actions."
+msgstr "לעקוב אחר פעולות הדפסת הדף."
+
+#: komito-analytics.php:71
+msgid "Track \"mailto\", \"tel\", \"sms\" and \"skype\" actions."
+msgstr "לעקוב אחר פעולות של  \"mailto\", \"tel\",  \"sms\", \"skype\"."
+
+#: komito-analytics.php:67
+msgid "Track pageviews by users logged in to social networks."
+msgstr "לעקוב אחר צפיות בדף על ידי משתמשים המחוברים לרשתות חברתיות."
+
+#: komito-analytics.php:63
+msgid "Track forms submissions."
+msgstr "לעקוב אחר שליחת טפסים."
+
+#: komito-analytics.php:59
+msgid "Track outbound links."
+msgstr "לעקוב אחר קישורים יוצאים."
+
+#: komito-analytics.php:51
+msgid "Track LinkedIn events if plugin is presented on page."
+msgstr "לעקוב אחר אירועי LinkedIn אם הפלאגין מוצג בדף."
+
+#: komito-analytics.php:47
+msgid "Track Facebook events if widget is presented on page."
+msgstr "לעקוב אחר אירועי פייסבוק אם הווידג'ט מוצג בדף."
+
+#: komito-analytics.php:43
+msgid "Track Twitter events if widget is presented on page."
+msgstr "לעקוב אחר אירועי Twitter אם הווידג'ט מוצג בדף."
