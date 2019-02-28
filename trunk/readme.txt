@@ -10,11 +10,11 @@ Stable Tag: 1.1.3
 Tested up to: 5.0
 Requires PHP: 5
 
-Komito Analytics is an enhancement for the most popular web analytics software.
+Komito Analytics is a free, open-source enhancement for the most popular web analytics software.
 
 == Description ==
 
-Komito Analytics is an enhancement for the most popular web analytics software.
+Komito Analytics is a free, open-source enhancement for the most popular web analytics software.
 Unlocks the power of digital analytics with additional insights about visitor's behavior such as:
 
 * Social interaction tracking
