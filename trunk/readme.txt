@@ -4,7 +4,7 @@ Tags: analytics, google-analytics, adobe-analytics, clicktale, event-tracking, y
 Stable tag: trunk
 License: Apache License 2.0
 License URI: https://www.apache.org/licenses/LICENSE-2.0
-Donate link: https://amzn.to/2SJZoi4
+Donate link: https://amzn.to/2EaRwkJ
 Requires at least: 4.6
 Stable Tag: 1.1.3
 Tested up to: 5.2
