@@ -33,6 +33,8 @@ If you would prefer to do things manually then follow these instructions:
 
 ## Changelog
 
+** 1.1.4 **
+* Added user preferred color scheme tracking.
 
 ** 1.1.3 **
 * Added support for Yandex Metrica.

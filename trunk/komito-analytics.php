@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @package KomitoAnalytics
- * @version 1.1.3
+ * @version 1.1.4
  * @license http://www.apache.org/licenses/LICENSE-2.0  Apache License 2.0
  * @author Valentin Podkamenyi <valentin@dtm.io>
  * @author Komito Analytics <support@komito.net>
@@ -17,7 +17,7 @@
  * Plugin Name: Komito Analytics
  * Plugin URI: https://komito.net
  * Description: Komito Analytics is an enhancement for the most popular web analytics software.
- * Version: 1.1.3
+ * Version: 1.1.4
  * Author: Datamart
  * Author URI: https://profiles.wordpress.org/datamart
  * License: Apache License 2.0
@@ -85,6 +85,10 @@ function get_komito_options() {
         'trackOrientation' => array(
             'default' => 1, 'type' => 'integer',
             'description' => __('Track orientation change on mobile devices.', 'komito-analytics')),
+
+        'trackColorScheme' => array(
+            'default' => 1, 'type' => 'integer',
+            'description' => __('Track user preferred color scheme.', 'komito-analytics')),
 
         'trackAdblock' => array(
             'default' => 0, 'type' => 'integer',
