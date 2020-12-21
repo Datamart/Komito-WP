@@ -33,6 +33,9 @@ If you would prefer to do things manually then follow these instructions:
 
 ## Changelog
 
+** 1.1.5 **
+* Added support for Google Analytics 4.
+
 ** 1.1.4 **
 * Added user preferred color scheme tracking.
 

@@ -102,6 +102,10 @@ function get_komito_options() {
             'default' => 0, 'type' => 'integer',
             'description' => __('Send heartbeat event. The default heartbeat interval is 30 seconds.', 'komito-analytics')),
 
+        'gtag' => array(
+            'default' => 0, 'type' => 'integer',
+            'description' => __('Use "gtag" events for Google Analytics (GA4).', 'komito-analytics')),
+
         'debugMode' => array(
             'default' => 0, 'type' => 'integer',
             'description' => __('Print all requests to console.', 'komito-analytics'))
