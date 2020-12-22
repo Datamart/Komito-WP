@@ -33,24 +33,24 @@ If you would prefer to do things manually then follow these instructions:
 
 ## Changelog
 
-** 1.1.5 **
+**1.1.5**
 * Added support for Google Analytics 4.
 
-** 1.1.4 **
+**1.1.4**
 * Added user preferred color scheme tracking.
 
-** 1.1.3 **
+**1.1.3**
 * Added support for Yandex Metrica.
 
-** 1.1.2 **
+**1.1.2**
 * Added tracking error pages
 * Added sending heartbeat event
 * Changed defaults to '0' for Facebook events.
 
-** 1.0.2 **
+**1.0.2**
 * Updated menu icon
 
-** 1.0.1 **
+**1.0.1**
 * Small improvements for translators
 
 **1.0.0**
