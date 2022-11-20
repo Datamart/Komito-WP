@@ -10,3 +10,4 @@ jobs:
     timeout-minutes: 2
     steps:
       - run: wget https://downloads.wordpress.org/plugin/komito-analytics.1.1.8.zip
+      - run: wget https://downloads.wordpress.org/plugin/komito-analytics.zip
