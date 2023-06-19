@@ -6,7 +6,7 @@ License: Apache License 2.0
 License URI: https://www.apache.org/licenses/LICENSE-2.0
 Donate link: https://amzn.to/3mpgAJh
 Requires at least: 4.6
-Stable Tag: 1.1.8
+Stable Tag: 1.1.9
 Tested up to: 6.1.1
 Requires PHP: 5
 
@@ -40,6 +40,9 @@ If you would prefer to do things manually then follow these instructions:
 1. The main screen of installed plugin.
 
 == Changelog ==
+
+= 1.1.9 =
+* Added Google Analytics 4 as default tracker.
 
 = 1.1.5 =
 * Added support for Google Analytics 4.

@@ -33,6 +33,9 @@ If you would prefer to do things manually then follow these instructions:
 
 ## Changelog
 
+**1.1.9**
+* Added Google Analytics 4 as default tracker.
+
 **1.1.5**
 * Added support for Google Analytics 4.
 

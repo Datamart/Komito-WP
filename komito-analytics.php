@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @package KomitoAnalytics
- * @version 1.1.8
+ * @version 1.1.9
  * @license http://www.apache.org/licenses/LICENSE-2.0  Apache License 2.0
  * @author Valentin Podkamennyi <valentin@dtm.io>
  * @author Komito Analytics <support@komito.net>
@@ -17,7 +17,7 @@
  * Plugin Name: Komito Analytics
  * Plugin URI: https://komito.net
  * Description: Komito Analytics is an enhancement for the most popular web analytics software.
- * Version: 1.1.8
+ * Version: 1.1.9
  * Author: Datamart
  * Author URI: https://profiles.wordpress.org/datamart
  * License: Apache License 2.0
