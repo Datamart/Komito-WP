@@ -1,14 +1,14 @@
 === Komito Analytics ===
 Contributors: datamart,komito,vpodk
-Tags: analytics, google-analytics, adobe-analytics, clicktale, event-tracking, yandex-metrica
+Tags: analytics, google-analytics, adobe-analytics, event-tracking, yandex-metrica
 Stable tag: trunk
 License: Apache License 2.0
 License URI: https://www.apache.org/licenses/LICENSE-2.0
 Donate link: https://amzn.to/3mpgAJh
 Requires at least: 4.6
-Stable Tag: 1.2.0
+Stable Tag: 1.2.1
 Tested up to: 6.5.5
-Requires PHP: 5
+Requires PHP: 7.2
 
 Komito Analytics is a free, open-source enhancement for the most popular web analytics software.
 
@@ -40,6 +40,9 @@ If you would prefer to do things manually then follow these instructions:
 1. The main screen of installed plugin.
 
 == Changelog ==
+
+= 1.2.1 =
+* Updated README.
 
 = 1.1.9 =
 * Added Google Analytics 4 as default tracker.
