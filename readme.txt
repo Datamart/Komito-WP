@@ -6,8 +6,8 @@ License: Apache License 2.0
 License URI: https://www.apache.org/licenses/LICENSE-2.0
 Donate link: https://amzn.to/3mpgAJh
 Requires at least: 4.6
-Stable Tag: 1.1.9
-Tested up to: 6.1.1
+Stable Tag: 1.2.0
+Tested up to: 6.5.5
 Requires PHP: 5
 
 Komito Analytics is a free, open-source enhancement for the most popular web analytics software.
