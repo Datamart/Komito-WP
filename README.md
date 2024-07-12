@@ -14,6 +14,9 @@ It unlocks the power of digital analytics with additional insights about visitor
 - Scroll and print events
 - Tracking pageviews with blocked ads
 
+Privacy is not a concern: Komito Analytics does not store any data.
+Why? Because it's an extension for the most popular web analytics software, not a service.
+
 For further information and instructions please see the [Komito Analytics website](https://komito.net).
 
 ## Komito Analytics for WordPress

@@ -2,10 +2,13 @@
 /**
  * Komito Analytics is an enhancement for the most popular web analytics software.
  *
+ * Privacy is not a concern: Komito Analytics does not store any data.
+ * Why? Because it's an extension for the most popular web analytics software, not a service.
+ *
  * PHP version 7.2
  *
  * @package KomitoAnalytics
- * @version 1.2.1
+ * @version 1.2.2
  * @license http://www.apache.org/licenses/LICENSE-2.0  Apache License 2.0
  * @author Valentin Podkamennyi <valentin@dtm.io>
  * @author Komito Analytics <support@komito.net>
@@ -17,7 +20,7 @@
  * Plugin Name: Komito Analytics
  * Plugin URI: https://komito.net
  * Description: Komito Analytics is an enhancement for the most popular web analytics software.
- * Version: 1.2.1
+ * Version: 1.2.2
  * Author: Datamart
  * Author URI: https://profiles.wordpress.org/datamart
  * License: Apache License 2.0
@@ -26,6 +29,8 @@
  * Text Domain: komito-analytics
  * Domain Path: /languages
  */
+
+if (!defined('ABSPATH')) exit; // Exit if accessed directly
 
 define('KOMITO_TEXT_DOMAIN', 'komito-analytics');
 define('KOMITO_PREFIX', 'komito_');
@@ -36,7 +41,7 @@ define('KOMITO_DEFAULT', 'defaults');
  * Gets Komito Analytics options.
  * @link https://komito.net/integration/
  */
-function get_komito_options() {
+function komito_options() {
     return array(
         'trackTwitter' => array(
             'default' => 1, 'type' => 'integer',
@@ -117,9 +122,9 @@ function get_komito_options() {
  * @link https://developer.wordpress.org/reference/functions/wp_enqueue_script/
  * @link https://komito.net/integration/
  */
-function add_komito() {
+function komito_load_plugin() {
     if (!get_option(KOMITO_PREFIX . KOMITO_DEFAULT, 1)) {
-        $options = get_komito_options();
+        $options = komito_options();
         $output = array();
 
         foreach ($options as $option => $args) {
@@ -127,10 +132,11 @@ function add_komito() {
             array_push($output, $option . ':' . (empty($value) ? 0 : $value));
         }
 
-        echo '<script>var _komito=_komito||{' . join(',', $output) . '};</script>';
+        wp_register_script('komito-config', '', array(), false, array('in_footer' => true));
+        wp_enqueue_script('komito-config');
+        wp_add_inline_script('komito-config', 'var _komito=_komito||{' . join(',', $output) . '};');
     }
-    echo '<script src="' . KOMITO_SCRIPT . '" async></script>';
-    // wp_enqueue_script('komito', KOMITO_SCRIPT, $in_footer=true);
+    wp_enqueue_script('komito', KOMITO_SCRIPT, array(), false, array('strategy' => 'async', 'in_footer' => true));
 }
 
 /**
@@ -157,18 +163,18 @@ function komito_menu() {
  * @link https://developer.wordpress.org/reference/functions/checked/
  */
 function komito_settings_page() {
-    $options = get_komito_options();
+    $options = komito_options();
     ?>
     <div class="wrap">
-      <h2><?php _e('Komito Analytics Settings', 'komito-analytics') ?></h2>
+      <h2><?php esc_html_e('Komito Analytics Settings', 'komito-analytics') ?></h2>
       <form method="post" action="options.php" name="komito-form">
         <?php settings_fields('komito-settings-group'); ?>
         <div>
           <label><input type="checkbox"
-            name="<?= KOMITO_PREFIX . KOMITO_DEFAULT ?>"
+            name="<?php echo esc_attr(KOMITO_PREFIX . KOMITO_DEFAULT); ?>"
             value="1" <?php checked(get_option(KOMITO_PREFIX . KOMITO_DEFAULT), 1); ?>
             onclick="setDisabled_()">
-            <?php _e('Use default Komito Analytics configuration settings.', 'komito-analytics') ?></label>
+            <?php esc_html_e('Use default Komito Analytics configuration settings.', 'komito-analytics') ?></label>
           <p>
             <?php
             /* translators: Variables contain start and end tags for the relevant link. */
@@ -182,7 +188,7 @@ function komito_settings_page() {
               <p>
                 <label><input type="checkbox"
                   value="1" <?php checked(get_option(KOMITO_PREFIX . $option), 1); ?>
-                  name="<?= KOMITO_PREFIX . $option ?>"><?= $args['description'] ?>
+                  name="<?php echo esc_attr(KOMITO_PREFIX . $option); ?>"><?php echo esc_html($args['description']); ?>
                 </label>
               </p>
           <?php } ?>
@@ -190,11 +196,16 @@ function komito_settings_page() {
         <?php submit_button(); ?>
       </form>
     </div>
+    <?php
+}
+
+function komito_settings_script() {
+    ?>
     <script>
     function setDisabled_() {
       var form = document.forms['komito-form'];
       var elements = form.elements;
-      var input = elements['<?= KOMITO_PREFIX . KOMITO_DEFAULT ?>'];
+      var input = elements['<?php echo esc_js(KOMITO_PREFIX . KOMITO_DEFAULT); ?>'];
       var length = elements.length;
       var types = {'checkbox': '', 'text': ''};
       var element;
@@ -216,7 +227,7 @@ function komito_settings_page() {
  */
 function komito_settings() {
     $group = 'komito-settings-group';
-    $options = get_komito_options();
+    $options = komito_options();
 
     register_setting($group, KOMITO_PREFIX . KOMITO_DEFAULT, array('default' => 1));
     foreach ($options as $option => $args) {
@@ -237,8 +248,9 @@ function komito_load_textdomain() {
  * Hooks a functions on to a specific actions.
  * @link https://developer.wordpress.org/reference/functions/add_action/
  */
-add_action('wp_footer', 'add_komito');
+add_action('wp_enqueue_scripts', 'komito_load_plugin');
 add_action('admin_menu', 'komito_menu');
 add_action('admin_init', 'komito_settings');
+add_action('admin_print_scripts', 'komito_settings_script');
 add_action('plugins_loaded', 'komito_load_textdomain');
 ?>

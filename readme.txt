@@ -1,12 +1,11 @@
 === Komito Analytics ===
 Contributors: datamart,komito,vpodk
 Tags: analytics, google-analytics, adobe-analytics, event-tracking, yandex-metrica
-Stable tag: trunk
 License: Apache License 2.0
 License URI: https://www.apache.org/licenses/LICENSE-2.0
 Donate link: https://amzn.to/3mpgAJh
 Requires at least: 4.6
-Stable Tag: 1.2.1
+Stable tag: 1.2.2
 Tested up to: 6.5.5
 Requires PHP: 7.2
 
@@ -25,6 +24,9 @@ Unlocks the power of digital analytics with additional insights about visitor's 
 * Video and audio events
 * Scroll and print events
 * Tracking pageviews with blocked ads
+
+Privacy is not a concern: Komito Analytics does not store any data.
+Why? Because it's an extension for the most popular web analytics software, not a service.
 
 For further information and instructions please see the [Komito Analytics integration page](https://komito.net/integration/).
 
