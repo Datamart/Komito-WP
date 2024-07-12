@@ -5,7 +5,7 @@ License: Apache License 2.0
 License URI: https://www.apache.org/licenses/LICENSE-2.0
 Donate link: https://amzn.to/3mpgAJh
 Requires at least: 4.6
-Stable tag: 1.2.2
+Stable tag: 1.2.3
 Tested up to: 6.5.5
 Requires PHP: 7.2
 

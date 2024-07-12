@@ -51,7 +51,7 @@ If you would prefer to do things manually then follow these instructions:
 
 ## Changelog
 
-**1.2.1**
+**1.2.3**
 
 - Updated README.
 
