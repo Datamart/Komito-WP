@@ -19,6 +19,20 @@ Why? Because it's an extension for the most popular web analytics software, not 
 
 For further information and instructions please see the [Komito Analytics website](https://komito.net).
 
+## 3rd Party External Script
+
+This plugin leverages the functionality of Komito Analytics and it utilizes an external JavaScript file (https://komito.net/komito.js).
+By using this plugin, you acknowledge that a third party script will be embedded into the website.
+
+We understand the importance of data privacy and transparency, however, privacy is not a concern: Komito Analytics does not store any data.
+Why? Because it's an extension for the most popular web analytics software, not a data collection service.
+
+Here are some resources to learn more about Komito Analytics:
+
+- https://komito.net/
+- https://komito.net/about/
+- https://komito.net/integration/
+
 ## Komito Analytics for WordPress
 
 ![Screenshot](https://github.com/Datamart/Komito-WP/blob/master/assets/screenshot-1.png)
